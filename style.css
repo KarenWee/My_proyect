@@ -9,17 +9,12 @@ body {
 
 /* Pantalla de bienvenida */
 .welcome {
-  top: 0;
-  left: 0;
-  right: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  width: 100%;
-  z-index: 100;
-  background: #08305f;
+  background: #153b67;
   animation: fadeIn 2s ease-in-out;
 }
 .welcome h1 {
