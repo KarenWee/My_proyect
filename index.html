@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🖤🪐</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Modal para mensaje lindo -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <p id="mensaje"></p>
+    </div>
+  </div>
+
+  <!-- Pantalla de bienvenida -->
+  <div class="welcome" id="welcome">
+    <h1>Holis🖤</h1>
+    <p>A la chica que le gustas (ahorita) no puede darte uno
+       <br> pero espero que te guste y te saque una sonrisa.
+       <br> Lo hice pensando en los carritos que mas te gustan a ti 
+    </p>
+    <button onclick="mostrarCards()">Holis 🪐</button>
+  </div>
+
+  <!-- Cards en ramo -->
+  <div class="cards-container" id="cards">
+    <div class="card card1">
+      <img src="img/carrito1.jpg" alt="Carrito 1">
+      <h3>Mitsubishi Eclipse</h3>
+      <p>No se si lo sabias pero mi parte favorita del dia es cuando hablamos 🌙</p>
+    </div>
+    <div class="card card2">
+      <img src="img/carrito2.jpg" alt="Carrito 2">
+      <h3>Dodge Hemi Challenger</h3>
+      <p>Solo pasaba a desearte un dia lindo como tú 💌</p>
+    </div>
+    <div class="card card3">
+      <img src="img/carrito3.jpg" alt="Carrito 3">
+      <h3>Dodge Charger RT</h3>
+      <p>No se como lo haces, pero cada dia me gustas más🔥</p>
+    </div>
+    <div class="card card4">
+      <img src="img/carrito4.jpg" alt="Carrito 4">
+      <h3>Dodge Challenger Drift</h3>
+      <p>Contigo cada por mas tranqui que sea, se siente especial 💭</p>
+    </div>
+    <div class="card card5">
+      <img src="img/carrito5.jpg" alt="Carrito 5">
+      <h3>Toyota Supra</h3>
+      <p>Los dias mas lindo para mi es cuando nos vemos 🫶</p>
+    </div>
+  </div>
+
+  <script>
+    function mostrarCards() {
+      document.getElementById("welcome").style.display = "none"; 
+      document.getElementById("cards").style.display = "flex";   
+    }
+  </script>
+
+</body>
+</html>
