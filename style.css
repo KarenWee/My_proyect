@@ -14,8 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: #002b5c;
-  backdrop-filter: blur(5px);
+  background: #08305f;
   animation: fadeIn 2s ease-in-out;
 }
 .welcome h1 {
@@ -110,4 +109,14 @@ body {
     opacity: 1;
     transform: translateY(0);
   }
+}
+/* Footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #fff7e6;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
 }
